@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TG_2019.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{AC683737-AA70-4888-8FAB-4AA18E27FEF6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TG_2019.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TG_2019Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{798C7799-A40D-46B9-9FA3-C1576C29C34D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TG_2019">
+      <UniqueIdentifier>{0CB01053-2216-45CA-ABA8-E859F04AB719}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TG_2019\TG_2019.Build.cs">
+      <Filter>Source\TG_2019</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TG_2019\TG_2019.cpp">
+      <Filter>Source\TG_2019</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TG_2019\TG_2019.h">
+      <Filter>Source\TG_2019</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TG_2019\TG_2019Character.cpp">
+      <Filter>Source\TG_2019</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TG_2019\TG_2019Character.h">
+      <Filter>Source\TG_2019</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TG_2019\TG_2019GameMode.cpp">
+      <Filter>Source\TG_2019</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TG_2019\TG_2019GameMode.h">
+      <Filter>Source\TG_2019</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TG_2019\TG_2019HUD.cpp">
+      <Filter>Source\TG_2019</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TG_2019\TG_2019HUD.h">
+      <Filter>Source\TG_2019</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TG_2019\TG_2019Projectile.cpp">
+      <Filter>Source\TG_2019</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TG_2019\TG_2019Projectile.h">
+      <Filter>Source\TG_2019</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

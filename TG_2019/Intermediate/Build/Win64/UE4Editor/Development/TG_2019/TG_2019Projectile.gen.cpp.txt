@@ -1,0 +1,5 @@
+F:\UdemyCourse\UE4C++\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\Definitions.TG_2019.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+F:\UdemyCourse\UE4C++\TG_2019\Source\TG_2019/TG_2019Projectile.h
+F:\UdemyCourse\UE4C++\TG_2019\Intermediate\Build\Win64\UE4Editor\Inc\TG_2019\TG_2019Projectile.generated.h
