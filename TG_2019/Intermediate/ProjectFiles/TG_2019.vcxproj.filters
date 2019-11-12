@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TG_2019.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{AC683737-AA70-4888-8FAB-4AA18E27FEF6}</UniqueIdentifier>
+      <UniqueIdentifier>{4863B451-15CF-43ED-B508-853C56AE4C72}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TG_2019.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\TG_2019Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{798C7799-A40D-46B9-9FA3-C1576C29C34D}</UniqueIdentifier>
+      <UniqueIdentifier>{8D233F9A-D5BF-40D8-9AC0-E0793B356AE1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TG_2019">
-      <UniqueIdentifier>{0CB01053-2216-45CA-ABA8-E859F04AB719}</UniqueIdentifier>
+      <UniqueIdentifier>{6AD4CFD0-1A4D-4568-9F04-08C0F795B3A6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TG_2019\TG_2019.Build.cs">
       <Filter>Source\TG_2019</Filter>
@@ -64,6 +66,24 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\TG_2019\TG_2019Projectile.h">
       <Filter>Source\TG_2019</Filter>
+    </ClInclude>
+    <Filter Include="Source\TG_2019\TP_ThirdPerson">
+      <UniqueIdentifier>{C3A2B3B4-35E4-4041-A281-8DC1D51C731C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TG_2019\TP_ThirdPerson\TP_ThirdPerson.h">
+      <Filter>Source\TG_2019\TP_ThirdPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TG_2019\TP_ThirdPerson\TP_ThirdPersonCharacter.cpp">
+      <Filter>Source\TG_2019\TP_ThirdPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TG_2019\TP_ThirdPerson\TP_ThirdPersonCharacter.h">
+      <Filter>Source\TG_2019\TP_ThirdPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TG_2019\TP_ThirdPerson\TP_ThirdPersonGameMode.cpp">
+      <Filter>Source\TG_2019\TP_ThirdPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TG_2019\TP_ThirdPerson\TP_ThirdPersonGameMode.h">
+      <Filter>Source\TG_2019\TP_ThirdPerson</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

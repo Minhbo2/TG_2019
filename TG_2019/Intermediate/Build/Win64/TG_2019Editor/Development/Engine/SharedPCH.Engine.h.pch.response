@@ -246,11 +246,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/I F:\UdemyCourse\UE4C++\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine
-/Yc"F:\UdemyCourse\UE4C++\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine\SharedPCH.Engine.h"
-/Fp"F:\UdemyCourse\UE4C++\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"F:\UdemyCourse\UE4C++\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"F:\UdemyCourse\UE4C++\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine\SharedPCH.Engine.h.obj"
+/I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine
+/Yc"F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4

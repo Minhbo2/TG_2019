@@ -28,9 +28,9 @@
 /wd4838
 /we4668
 /I .
-/I F:\UdemyCourse\UE4C++\TG_2019\Intermediate\Build\Win64\UE4Editor\Inc\TG_2019
-/I F:\UdemyCourse\UE4C++\TG_2019\Source
-/I F:\UdemyCourse\UE4C++\TG_2019\Source\TG_2019
+/I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Inc\TG_2019
+/I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Source
+/I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Source\TG_2019
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -532,12 +532,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"F:\UdemyCourse\UE4C++\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine\SharedPCH.Engine.h"
-/Yu"F:\UdemyCourse\UE4C++\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine\SharedPCH.Engine.h"
-/Fp"F:\UdemyCourse\UE4C++\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"F:\UdemyCourse\UE4C++\TG_2019\Intermediate\Build\Win64\UE4Editor\Inc\TG_2019\TG_2019Character.gen.cpp"
-/FI"F:\UdemyCourse\UE4C++\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\Definitions.TG_2019.h"
-/Fo"F:\UdemyCourse\UE4C++\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\TG_2019Character.gen.cpp.obj"
+/FI"F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine\SharedPCH.Engine.h"
+/Yu"F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Inc\TG_2019\TG_2019Character.gen.cpp"
+/FI"F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\Definitions.TG_2019.h"
+/Fo"F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\TG_2019Character.gen.cpp.obj"
 /TP
 /GR-
 /W4
