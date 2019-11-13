@@ -28,10 +28,13 @@
 /wd4838
 /we4668
 /I .
-/I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Inc\TG_2019
-/I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Source
-/I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Source\TG_2019
+/I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Source\TG_2019\Private
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AIModule
 /I Runtime
+/I Runtime\NavigationSystem\Public
+/I Runtime\AIModule\Public
+/I Runtime\AIModule\Classes
+/I Runtime\AIModule
 /I Runtime\Core\Public
 /I Runtime\Core
 /I Runtime\Core\Public\Algo
@@ -431,7 +434,6 @@
 /I Runtime\PropertyPath\Public
 /I Runtime\PropertyPath
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem
-/I Runtime\NavigationSystem\Public
 /I Runtime\NavigationSystem
 /I Runtime\NavigationSystem\Public\NavAreas
 /I Runtime\NavigationSystem\Public\NavFilters
@@ -488,10 +490,6 @@
 /I Runtime\GameplayTasks\Classes
 /I Runtime\GameplayTasks\Public
 /I Runtime\GameplayTasks
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AIModule
-/I Runtime\AIModule\Public
-/I Runtime\AIModule\Classes
-/I Runtime\AIModule
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Kismet
 /I Editor\Kismet\Classes
 /I Editor\Kismet\Public
@@ -501,6 +499,10 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\ClothingSystemRuntimeInterface
+/I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Inc\TG_2019
+/I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Source
+/I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Source\TG_2019\Public
+/I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Source\TG_2019
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
