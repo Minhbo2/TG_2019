@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TG_2019.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1EC4AF08-04A2-42CD-B675-17A2AF2E80D7}</UniqueIdentifier>
+      <UniqueIdentifier>{DCC7DAE2-DE9D-448F-A890-17D5287A4653}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TG_2019.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{E26023CE-4060-4118-8CA4-DF755EAF81BA}</UniqueIdentifier>
+      <UniqueIdentifier>{824A0732-9270-4B34-8CEC-CE6F6EA441C0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TG_2019">
-      <UniqueIdentifier>{C7692774-1369-4813-9B5F-333D643E938F}</UniqueIdentifier>
+      <UniqueIdentifier>{2FDC4BA7-06D1-42DE-859A-6A76C36D2523}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TG_2019\TG_2019.Build.cs">
       <Filter>Source\TG_2019</Filter>
@@ -68,19 +68,25 @@
       <Filter>Source\TG_2019</Filter>
     </ClInclude>
     <Filter Include="Source\TG_2019\Private">
-      <UniqueIdentifier>{E3A97A0B-EF40-46B0-884F-2E614D93FF14}</UniqueIdentifier>
+      <UniqueIdentifier>{32A17781-05C2-46CD-B984-A55983664EF7}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TG_2019\Private\ChooseNextWaypoint.cpp">
       <Filter>Source\TG_2019\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\TG_2019\Private\PatrolRouteComponent.cpp">
+      <Filter>Source\TG_2019\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\TG_2019\Public">
-      <UniqueIdentifier>{29333B48-698D-4BD7-B58C-F35961BD9250}</UniqueIdentifier>
+      <UniqueIdentifier>{DD782F04-6844-437C-83D0-BB668823529C}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\TG_2019\Public\ChooseNextWaypoint.h">
       <Filter>Source\TG_2019\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\TG_2019\Public\PatrolRouteComponent.h">
+      <Filter>Source\TG_2019\Public</Filter>
+    </ClInclude>
     <Filter Include="Source\TG_2019\TP_ThirdPerson">
-      <UniqueIdentifier>{D4BEB7F2-B4CD-4DD3-864B-FD14DB5FEFC7}</UniqueIdentifier>
+      <UniqueIdentifier>{C20FB42B-4D0B-4182-AF38-5286B1A3DC9E}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\TG_2019\TP_ThirdPerson\TP_ThirdPerson.h">
       <Filter>Source\TG_2019\TP_ThirdPerson</Filter>
@@ -97,15 +103,5 @@
     <ClInclude Include="..\..\Source\TG_2019\TP_ThirdPerson\TP_ThirdPersonGameMode.h">
       <Filter>Source\TG_2019\TP_ThirdPerson</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\TG_2019\Public\PatrollingGuard.h">
-      <Filter>Source\TG_2019\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\TG_2019\Private\PatrollingGuard.cpp">
-      <Filter>Source\TG_2019\Private</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

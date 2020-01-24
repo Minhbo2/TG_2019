@@ -8,7 +8,7 @@
 /NODEFAULTLIB
 "F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\TG_2019Editor\Development\Engine\SharedPCH.Engine.h.obj"
 "F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\ChooseNextWaypoint.cpp.obj"
-"F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\PatrollingGuard.cpp.obj"
+"F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\PatrolRouteComponent.cpp.obj"
 "F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\TP_ThirdPersonCharacter.cpp.obj"
 "F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\TP_ThirdPersonGameMode.cpp.obj"
 "F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\TG_2019.cpp.obj"
@@ -17,7 +17,7 @@
 "F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\TG_2019HUD.cpp.obj"
 "F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\TG_2019Projectile.cpp.obj"
 "F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\ChooseNextWaypoint.gen.cpp.obj"
-"F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\PatrollingGuard.gen.cpp.obj"
+"F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\PatrolRouteComponent.gen.cpp.obj"
 "F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\TG_2019.init.gen.cpp.obj"
 "F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\TG_2019Character.gen.cpp.obj"
 "F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\TG_2019GameMode.gen.cpp.obj"
