@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TG_2019.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DCC7DAE2-DE9D-448F-A890-17D5287A4653}</UniqueIdentifier>
+      <UniqueIdentifier>{CACD9085-3D79-491A-84A2-0F340C1B953D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TG_2019.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{824A0732-9270-4B34-8CEC-CE6F6EA441C0}</UniqueIdentifier>
+      <UniqueIdentifier>{8BD7B87D-A5AB-4C69-A503-A501F61C4E2B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TG_2019">
-      <UniqueIdentifier>{2FDC4BA7-06D1-42DE-859A-6A76C36D2523}</UniqueIdentifier>
+      <UniqueIdentifier>{E0433C5D-0F44-410E-A509-ED4656704128}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TG_2019\TG_2019.Build.cs">
       <Filter>Source\TG_2019</Filter>
@@ -41,12 +41,6 @@
       <Filter>Source\TG_2019</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\TG_2019\TG_2019.h">
-      <Filter>Source\TG_2019</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\TG_2019\TG_2019Character.cpp">
-      <Filter>Source\TG_2019</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\TG_2019\TG_2019Character.h">
       <Filter>Source\TG_2019</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\TG_2019\TG_2019GameMode.cpp">
@@ -61,14 +55,17 @@
     <ClInclude Include="..\..\Source\TG_2019\TG_2019HUD.h">
       <Filter>Source\TG_2019</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\TG_2019\TG_2019Projectile.cpp">
-      <Filter>Source\TG_2019</Filter>
+    <Filter Include="Source\TG_2019\Player">
+      <UniqueIdentifier>{53D6845A-B56C-442C-9A94-23A08527775B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TG_2019\Player\FirstPersonCharacter.cpp">
+      <Filter>Source\TG_2019\Player</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\TG_2019\TG_2019Projectile.h">
-      <Filter>Source\TG_2019</Filter>
+    <ClInclude Include="..\..\Source\TG_2019\Player\FirstPersonCharacter.h">
+      <Filter>Source\TG_2019\Player</Filter>
     </ClInclude>
     <Filter Include="Source\TG_2019\Private">
-      <UniqueIdentifier>{32A17781-05C2-46CD-B984-A55983664EF7}</UniqueIdentifier>
+      <UniqueIdentifier>{F9956AFE-F4EC-428D-8D4A-F873D530170B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TG_2019\Private\ChooseNextWaypoint.cpp">
       <Filter>Source\TG_2019\Private</Filter>
@@ -77,7 +74,7 @@
       <Filter>Source\TG_2019\Private</Filter>
     </ClCompile>
     <Filter Include="Source\TG_2019\Public">
-      <UniqueIdentifier>{DD782F04-6844-437C-83D0-BB668823529C}</UniqueIdentifier>
+      <UniqueIdentifier>{4A43DEBD-F719-451A-94C9-AA2625C703BE}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\TG_2019\Public\ChooseNextWaypoint.h">
       <Filter>Source\TG_2019\Public</Filter>
@@ -85,23 +82,14 @@
     <ClInclude Include="..\..\Source\TG_2019\Public\PatrolRouteComponent.h">
       <Filter>Source\TG_2019\Public</Filter>
     </ClInclude>
-    <Filter Include="Source\TG_2019\TP_ThirdPerson">
-      <UniqueIdentifier>{C20FB42B-4D0B-4182-AF38-5286B1A3DC9E}</UniqueIdentifier>
+    <Filter Include="Source\TG_2019\Weapon">
+      <UniqueIdentifier>{5B502FEB-C360-4E67-A79D-C95A3ED0F0B7}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\TG_2019\TP_ThirdPerson\TP_ThirdPerson.h">
-      <Filter>Source\TG_2019\TP_ThirdPerson</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\TG_2019\TP_ThirdPerson\TP_ThirdPersonCharacter.cpp">
-      <Filter>Source\TG_2019\TP_ThirdPerson</Filter>
+    <ClCompile Include="..\..\Source\TG_2019\Weapon\Projectile.cpp">
+      <Filter>Source\TG_2019\Weapon</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\TG_2019\TP_ThirdPerson\TP_ThirdPersonCharacter.h">
-      <Filter>Source\TG_2019\TP_ThirdPerson</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\TG_2019\TP_ThirdPerson\TP_ThirdPersonGameMode.cpp">
-      <Filter>Source\TG_2019\TP_ThirdPerson</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\TG_2019\TP_ThirdPerson\TP_ThirdPersonGameMode.h">
-      <Filter>Source\TG_2019\TP_ThirdPerson</Filter>
+    <ClInclude Include="..\..\Source\TG_2019\Weapon\Projectile.h">
+      <Filter>Source\TG_2019\Weapon</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

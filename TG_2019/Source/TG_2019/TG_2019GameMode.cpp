@@ -2,7 +2,7 @@
 
 #include "TG_2019GameMode.h"
 #include "TG_2019HUD.h"
-#include "TG_2019Character.h"
+#include "Player/FirstPersonCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
 ATG_2019GameMode::ATG_2019GameMode()
