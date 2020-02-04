@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TG_2019.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CACD9085-3D79-491A-84A2-0F340C1B953D}</UniqueIdentifier>
+      <UniqueIdentifier>{BAC7F28B-B0AC-431C-B674-D990A8E82D3A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TG_2019.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{8BD7B87D-A5AB-4C69-A503-A501F61C4E2B}</UniqueIdentifier>
+      <UniqueIdentifier>{63A3A29B-2CA0-43D4-88E6-072186446BEB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TG_2019">
-      <UniqueIdentifier>{E0433C5D-0F44-410E-A509-ED4656704128}</UniqueIdentifier>
+      <UniqueIdentifier>{AE182815-A43F-48FD-8241-D23AE2F1CFE1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TG_2019\TG_2019.Build.cs">
       <Filter>Source\TG_2019</Filter>
@@ -55,8 +55,23 @@
     <ClInclude Include="..\..\Source\TG_2019\TG_2019HUD.h">
       <Filter>Source\TG_2019</Filter>
     </ClInclude>
+    <Filter Include="Source\TG_2019\NPC">
+      <UniqueIdentifier>{37092C36-C29A-4079-8F39-FC26B164AE48}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TG_2019\NPC\ChooseNextWaypoint.cpp">
+      <Filter>Source\TG_2019\NPC</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TG_2019\NPC\ChooseNextWaypoint.h">
+      <Filter>Source\TG_2019\NPC</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TG_2019\NPC\PatrolRouteComponent.cpp">
+      <Filter>Source\TG_2019\NPC</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TG_2019\NPC\PatrolRouteComponent.h">
+      <Filter>Source\TG_2019\NPC</Filter>
+    </ClInclude>
     <Filter Include="Source\TG_2019\Player">
-      <UniqueIdentifier>{53D6845A-B56C-442C-9A94-23A08527775B}</UniqueIdentifier>
+      <UniqueIdentifier>{AEFA10FD-DDB9-4686-91BC-C74C099D9DFA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TG_2019\Player\FirstPersonCharacter.cpp">
       <Filter>Source\TG_2019\Player</Filter>
@@ -64,26 +79,8 @@
     <ClInclude Include="..\..\Source\TG_2019\Player\FirstPersonCharacter.h">
       <Filter>Source\TG_2019\Player</Filter>
     </ClInclude>
-    <Filter Include="Source\TG_2019\Private">
-      <UniqueIdentifier>{F9956AFE-F4EC-428D-8D4A-F873D530170B}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\TG_2019\Private\ChooseNextWaypoint.cpp">
-      <Filter>Source\TG_2019\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\TG_2019\Private\PatrolRouteComponent.cpp">
-      <Filter>Source\TG_2019\Private</Filter>
-    </ClCompile>
-    <Filter Include="Source\TG_2019\Public">
-      <UniqueIdentifier>{4A43DEBD-F719-451A-94C9-AA2625C703BE}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\TG_2019\Public\ChooseNextWaypoint.h">
-      <Filter>Source\TG_2019\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\TG_2019\Public\PatrolRouteComponent.h">
-      <Filter>Source\TG_2019\Public</Filter>
-    </ClInclude>
     <Filter Include="Source\TG_2019\Weapon">
-      <UniqueIdentifier>{5B502FEB-C360-4E67-A79D-C95A3ED0F0B7}</UniqueIdentifier>
+      <UniqueIdentifier>{5D809861-F002-4F1B-812E-70F7760323E5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TG_2019\Weapon\Projectile.cpp">
       <Filter>Source\TG_2019\Weapon</Filter>

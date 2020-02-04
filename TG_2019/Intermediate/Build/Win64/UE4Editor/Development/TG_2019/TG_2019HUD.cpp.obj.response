@@ -28,7 +28,6 @@
 /wd4838
 /we4668
 /I .
-/I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Source\TG_2019\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AIModule
 /I Runtime
 /I Runtime\NavigationSystem\Public
@@ -501,7 +500,6 @@
 /I Runtime\ClothingSystemRuntimeInterface
 /I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Inc\TG_2019
 /I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Source
-/I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Source\TG_2019\Public
 /I F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Source\TG_2019
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
