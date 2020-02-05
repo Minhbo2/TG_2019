@@ -1,2 +1,0 @@
-F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\Definitions.TG_2019.h
-F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Source\TG_2019\TG_2019.h

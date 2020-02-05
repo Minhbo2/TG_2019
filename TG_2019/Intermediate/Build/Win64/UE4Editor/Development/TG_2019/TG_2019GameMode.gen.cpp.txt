@@ -1,9 +1,0 @@
-F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Development\TG_2019\Definitions.TG_2019.h
-C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Source\TG_2019/TG_2019GameMode.h
-C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-C:\Program Files\Epic Games\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-C:\Program Files\Epic Games\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-F:\UdemyCourse\UE4C++\TG_2019\TG_2019\Intermediate\Build\Win64\UE4Editor\Inc\TG_2019\TG_2019GameMode.generated.h
