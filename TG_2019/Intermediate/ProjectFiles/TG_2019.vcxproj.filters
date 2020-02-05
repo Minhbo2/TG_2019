@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TG_2019.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BAC7F28B-B0AC-431C-B674-D990A8E82D3A}</UniqueIdentifier>
+      <UniqueIdentifier>{91C91E51-E446-421B-8E3C-448FC2CA309A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TG_2019.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{63A3A29B-2CA0-43D4-88E6-072186446BEB}</UniqueIdentifier>
+      <UniqueIdentifier>{94149E9E-EB3E-4458-A16F-B753BD7BB712}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TG_2019">
-      <UniqueIdentifier>{AE182815-A43F-48FD-8241-D23AE2F1CFE1}</UniqueIdentifier>
+      <UniqueIdentifier>{B6B009F6-89D3-46A5-B22B-AF8A6580A17A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TG_2019\TG_2019.Build.cs">
       <Filter>Source\TG_2019</Filter>
@@ -56,7 +56,7 @@
       <Filter>Source\TG_2019</Filter>
     </ClInclude>
     <Filter Include="Source\TG_2019\NPC">
-      <UniqueIdentifier>{37092C36-C29A-4079-8F39-FC26B164AE48}</UniqueIdentifier>
+      <UniqueIdentifier>{9E11169E-CA59-46D1-A016-A5EE693EAD7E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TG_2019\NPC\ChooseNextWaypoint.cpp">
       <Filter>Source\TG_2019\NPC</Filter>
@@ -71,7 +71,7 @@
       <Filter>Source\TG_2019\NPC</Filter>
     </ClInclude>
     <Filter Include="Source\TG_2019\Player">
-      <UniqueIdentifier>{AEFA10FD-DDB9-4686-91BC-C74C099D9DFA}</UniqueIdentifier>
+      <UniqueIdentifier>{D4AC1660-02BE-4744-873E-CEAD752C0D7D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TG_2019\Player\FirstPersonCharacter.cpp">
       <Filter>Source\TG_2019\Player</Filter>
@@ -80,7 +80,7 @@
       <Filter>Source\TG_2019\Player</Filter>
     </ClInclude>
     <Filter Include="Source\TG_2019\Weapon">
-      <UniqueIdentifier>{5D809861-F002-4F1B-812E-70F7760323E5}</UniqueIdentifier>
+      <UniqueIdentifier>{A4ECE922-6A0E-4A0C-8E82-8392FF3FC892}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\TG_2019\Weapon\Projectile.cpp">
       <Filter>Source\TG_2019\Weapon</Filter>
@@ -88,5 +88,15 @@
     <ClInclude Include="..\..\Source\TG_2019\Weapon\Projectile.h">
       <Filter>Source\TG_2019\Weapon</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TG_2019\Weapon\Gun.h">
+      <Filter>Source\TG_2019\Weapon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TG_2019\Weapon\Gun.cpp">
+      <Filter>Source\TG_2019\Weapon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
