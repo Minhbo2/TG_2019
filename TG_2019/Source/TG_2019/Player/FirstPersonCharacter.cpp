@@ -43,7 +43,7 @@ AFirstPersonCharacter::AFirstPersonCharacter()
 	Mesh1P->RelativeRotation = FRotator(1.9f, -19.19f, 5.2f);
 	Mesh1P->RelativeLocation = FVector(-0.5f, -4.4f, -155.7f);
 
-	ConstructorHelpers::FClassFinder<AGun> Gun(TEXT("/Game/Weapon/Behaviors/Gun_BP"));
+	ConstructorHelpers::FClassFinder<AGun> Gun(TEXT("/Game/Dynamic/Weapon/Behaviors/Gun_BP"));
 	GunClass = Gun.Class;
 
 	// Default offset from the character location for projectiles to spawn

@@ -18,14 +18,14 @@ AGun::AGun()
 	FP_Gun = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("FP_Gun"));
 	FP_Gun->bCastDynamicShadow = false;
 	FP_Gun->CastShadow = false;
-	ConstructorHelpers::FObjectFinder<USkeletalMesh> GunMesh(TEXT("/Game/Weapon/FPWeapon/Mesh/SK_FPGun"));
+	ConstructorHelpers::FObjectFinder<USkeletalMesh> GunMesh(TEXT("/Game/Static/Weapon/FPWeapon/Mesh/SK_FPGun"));
 	FP_Gun->SkeletalMesh = GunMesh.Object;
 	RootComponent = FP_Gun;
 
 	FP_MuzzleLocation = CreateDefaultSubobject<USceneComponent>(TEXT("MuzzleLocation"));
 	FP_MuzzleLocation->SetupAttachment(FP_Gun);
 
-	ConstructorHelpers::FClassFinder<AProjectile> ProjectileClass(TEXT("/Game/Weapon/Behaviors/Projectile_BP"));
+	ConstructorHelpers::FClassFinder<AProjectile> ProjectileClass(TEXT("/Game/Dynamic/Weapon/Behaviors/Projectile_BP"));
 	Projectile = ProjectileClass.Class;
 }
 
