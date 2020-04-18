@@ -6,7 +6,8 @@
 #include "Camera/CameraComponent.h"
 #include "Components/ChildActorComponent.h"
 #include "UObject/ConstructorHelpers.h"
-#include "/UdemyCourse/UE4C++/TG_2019/TG_2019/Source/TG_2019/Weapon/Gun.h"
+#include "Weapon/Gun.h"
+#include "Components/InputComponent.h"
 
 // Sets default values
 AMannequin::AMannequin()
@@ -34,24 +35,52 @@ AMannequin::AMannequin()
 void AMannequin::BeginPlay()
 {
 	Super::BeginPlay();
+
 	if (GunBlueprint == NULL) {
 		UE_LOG(LogTemp, Warning, TEXT("Gun blueprint missing."));
 		return;
 	}
 	Gun = GetWorld()->SpawnActor<AGun>(GunBlueprint);
-	Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint")); //Attach gun mesh component to Skeleton, doing it here because the skelton is not yet created in the constructor
-	Gun->AnimInstance = Mesh1P->GetAnimInstance();
-	
+
+	//Attach gun mesh component to Skeleton, doing it here because the skelton is not yet created in the constructor
+	if (IsPlayerControlled())
+	{
+		Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+	}
+	else
+	{
+		Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+	}
+
+	// Firing must bind here since Gun is not set during binding proccess pre-beginPlay
+	if (InputComponent != NULL)
+		InputComponent->BindAction("Fire", IE_Pressed, this, &AMannequin::PullTrigger);
+
+	Gun->AnimInstance1P = Mesh1P->GetAnimInstance();
+	Gun->AnimInstance3P = GetMesh()->GetAnimInstance();
 }
 
 // Called every frame
 void AMannequin::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
-void AMannequin::Fire()
+void AMannequin::PullTrigger()
 {
 	Gun->OnFire();
+}
+
+void AMannequin::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+{
+	Super::SetupPlayerInputComponent(PlayerInputComponent);
+}
+
+void AMannequin::UnPossessed()
+{
+	Super::UnPossessed();
+
+	// will crash without check. this method runs before begin play and Gun does not exist yet. 
+	if(Gun != NULL)
+		Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint_0"));
 }
